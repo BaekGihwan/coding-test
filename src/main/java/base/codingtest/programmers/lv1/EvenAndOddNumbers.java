@@ -23,7 +23,7 @@ public class EvenAndOddNumbers {
      * @param num 자연수
      * @return 짝수 홀수 구분
      */
-    public static String solution(int num) {
+    private static String solution(int num) {
         return (num % 2 == 0) ? "even" : "odd";
     }
 }

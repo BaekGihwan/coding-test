@@ -16,7 +16,7 @@ public class DigitAddition {
      * @param n 자연수
      * @return 각 자릿수의 합
      */
-    public static int solution(int n) {
+    private static int solution(int n) {
         int answer = 0;
 
         while (n > 0) {
