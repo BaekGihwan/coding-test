@@ -2,18 +2,17 @@ package base.codingtest.programmers.lv1;
 
 import java.util.Scanner;
 
-public class FindRemainderOne {
-    // 나머지가 1이 되는 수 찾기
-    // https://school.programmers.co.kr/learn/courses/30/lessons/87389
+public class SumOfDivisors {
+    // 약수의 합
+    // https://school.programmers.co.kr/learn/courses/30/lessons/12928
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("자연수 n를 입력하세요: ");
+        System.out.print("정수 n를 입력하세요: ");
         int n = scanner.nextInt();
 
         int result = solution(n);
-
         System.out.println("answer is " + result);
 
         scanner.close();
@@ -21,15 +20,18 @@ public class FindRemainderOne {
 
     /**
      * 짝수와 홀수
-     * @param n 자연수 값
-     * @return 나머지가 1인 값
+     * @param n 정수 값
+     * @return 약수의 합
      */
     private static int solution(int n) {
-        for (int i = 2; i < n; i++) {
-            if (n % i == 1) {
-                return i;
+        int answer = 0;
+
+        for (int i = 1; i <= n; i++) {
+            if (n % i == 0) {
+                answer += i;
             }
+
         }
-        return -1;
+        return answer;
     }
 }

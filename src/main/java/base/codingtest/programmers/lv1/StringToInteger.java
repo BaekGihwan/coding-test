@@ -18,6 +18,11 @@ public class StringToInteger {
         scanner.close();
     }
 
+    /**
+     * 짝수와 홀수
+     * @param str 문자열
+     * @return String -> int 변환 값
+     */
     private static int solution(String str) {
         return Integer.parseInt(str);
     }
