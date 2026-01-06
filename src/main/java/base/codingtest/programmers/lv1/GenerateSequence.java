@@ -23,7 +23,7 @@ public class GenerateSequence {
     }
 
     /**
-     * 짝수와 홀수
+     * x만큼 간격이 있는 n개의 숫자
      * @param x 시작값
      * @param n 증가 갯수값
      * @return array 결과값

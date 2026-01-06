@@ -19,9 +19,9 @@ public class SumOfDivisors {
     }
 
     /**
-     * 짝수와 홀수
+     * 약수의 합
      * @param n 정수 값
-     * @return 약수의 합
+     * @return 합
      */
     private static int solution(int n) {
         int answer = 0;

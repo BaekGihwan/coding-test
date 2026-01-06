@@ -19,7 +19,7 @@ public class StringToInteger {
     }
 
     /**
-     * 짝수와 홀수
+     * 문자열을 정수로 바꾸기
      * @param str 문자열
      * @return String -> int 변환 값
      */

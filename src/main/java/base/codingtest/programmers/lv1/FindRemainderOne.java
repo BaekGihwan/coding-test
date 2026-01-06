@@ -20,7 +20,7 @@ public class FindRemainderOne {
     }
 
     /**
-     * 짝수와 홀수
+     * 나머지가 1이 되는 수 찾기
      * @param n 자연수 값
      * @return 나머지가 1인 값
      */

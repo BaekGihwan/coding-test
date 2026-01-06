@@ -12,7 +12,7 @@ public class AverageCalculation {
     }
 
     /**
-     * 짝수와 홀수
+     * 평균 구하기
      * @param arr 입력값
      * @return 평균 값
      */
