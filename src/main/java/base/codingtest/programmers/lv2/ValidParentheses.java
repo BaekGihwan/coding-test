@@ -20,10 +20,10 @@ public class ValidParentheses {
     }
 
     /**
-     * x만큼 간격이 있는 n개의 숫자
+     * 괄호 문자열이 올바른지 여부를 반환한다.
      *
      * @param s 괄호 문자열
-     * @return boolean 결과값
+     * @return 올바른 괄호이면 true, 아니면 false
      */
     private static boolean solution(String s) {
         int sum = 0;
