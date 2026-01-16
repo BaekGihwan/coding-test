@@ -9,7 +9,7 @@ public class CollatzConjecture {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.printf("자연수 n를 입력하세요: ");
+        System.out.print("자연수 n를 입력하세요: ");
         int num = scanner.nextInt();
 
         int result = solution(num);
